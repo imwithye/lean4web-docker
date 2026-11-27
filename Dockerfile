@@ -6,7 +6,7 @@
 #   docker build --build-arg LEAN4WEB_VERSION=v0.2.2 -t lean4web:v0.2.2 .
 
 ARG LEAN4WEB_VERSION=v0.2.2
-ARG NODE_VERSION=24
+ARG NODE_VERSION=25
 
 ############################
 # Stage 1: fetch source at the release tag
